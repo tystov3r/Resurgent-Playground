@@ -55,17 +55,17 @@ $siteURL = siteURL(); //https://example.com
 echo '{
  "items": [
    {
-     "pic" : "https://fabulousnewwebsite.com/trucks/truck1.jpg",
+     "offer" : "20%",
      "truck_name": "2013 Kenworth K270",
      "price": "20,000.00 USD"
    },
    {
-    "pic" : "https://fabulousnewwebsite.com/trucks/truck2.jpg",
+    "offer" : "30%",
      "truck_name": "2014 Kenworth K270",
      "price": "30,500.00 USD"
    },
    {
-    "pic" : "https://fabulousnewwebsite.com/trucks/truck3.jpg",
+    "offer" : "40%",
      "truck_name": "2015 Kenworth K270",
      "price": "35,500.00 USD"
    }
