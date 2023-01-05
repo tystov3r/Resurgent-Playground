@@ -55,17 +55,17 @@ $siteURL = siteURL(); //https://example.com
 echo '{
  "items": [
    {
-     "offer" : "20%",
+     "pic" : "https://resurgent.azureedge.net/cdn/ShyOpener/dollar_icon_graybg.png",
      "truck_name": "2013 Kenworth K270",
      "price": "20,000.00 USD"
    },
    {
-    "offer" : "30%",
+    "pic" : "https://resurgent.azureedge.net/cdn/Disengaged/Dad_Daughter_image.png",
      "truck_name": "2014 Kenworth K270",
      "price": "30,500.00 USD"
    },
    {
-    "offer" : "40%",
+    "pic" : "https://resurgenttest.azureedge.net/cdn/Disengaged/New-GIF-1000x1000.gif",
      "truck_name": "2015 Kenworth K270",
      "price": "35,500.00 USD"
    }
