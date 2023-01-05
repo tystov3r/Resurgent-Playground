@@ -39,8 +39,8 @@ $siteURL = siteURL(); //https://example.com
 /*
     AMP Gmail headers
 */ 
-/* header("AMP-Access-Control-Allow-Source-Origin: amp@gmail.dev"); 
-  header("Access-Control-Allow-Origin: https://amp.gmail.dev"); */
+header("AMP-Access-Control-Allow-Source-Origin: amp@gmail.dev"); 
+  header("Access-Control-Allow-Origin: https://amp.gmail.dev"); 
  
  header("Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin");
  header("Access-Control-Allow-Credentials: true");
