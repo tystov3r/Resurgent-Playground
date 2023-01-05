@@ -18,7 +18,7 @@ $siteURL = siteURL(); //https://example.com
 
 /* Gmail headers */ 
 
-    header("AMP-Access-Control-Allow-Source-Origin:https://mail.google.com");
+ header("AMP-Access-Control-Allow-Source-Origin:https://mail.google.com");
  header("AMP-Access-Control-Allow-Source-Origin: amp@gmail.dev");
  header("Access-Control-Allow-Origin: https://mail.google.com");
 
@@ -32,15 +32,15 @@ $siteURL = siteURL(); //https://example.com
  AMP Playground headers
 */
 
-/*header("AMP-Access-Control-Allow-Source-Origin: https://playground.amp.dev"); 
-  header("Access-Control-Allow-Origin: https://playground.amp.dev");
-*/
+header("AMP-Access-Control-Allow-Source-Origin: https://playground.amp.dev"); 
+header("Access-Control-Allow-Origin: https://playground.amp.dev");
+
 
 /*
     AMP Gmail headers
 */ 
 header("AMP-Access-Control-Allow-Source-Origin: amp@gmail.dev"); 
-  header("Access-Control-Allow-Origin: https://amp.gmail.dev"); 
+header("Access-Control-Allow-Origin: https://amp.gmail.dev"); 
  
  header("Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin");
  header("Access-Control-Allow-Credentials: true");
